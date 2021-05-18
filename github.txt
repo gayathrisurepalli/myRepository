@@ -1,0 +1,52 @@
+Git Work Flow
+==============
+1. Create a "repository" (project) with a git hosting tool (like Bitbucket)
+2. Copy (or clone) the repository to your local machine
+3. Add a file to your local repo and "commit" (save) the changes
+4. "Push" your changes to your master branch
+5. Make a change to your file with a git hosting tool and commit
+6. "Pull" the changes to your local machine
+7. Create a "branch" (version), make a change, commit the change
+8. Open a "pull request" (propose changes to the master branch)
+9. "Merge" your branch to the master branch
+Steps to Checkin the code
+-------------------------
+1. create a local repository
+    git init
+2. Tell Git who you are ?
+    git config --global user.name "Sam Smith"
+    git config --global user.email sam@example.com
+3. Add one or more files to staging (index):
+    git add <filename>
+    git add *
+4. Commit changes to head (but not yet to the remote repository):
+    git commit -m "Commit message"
+
+from Praveen Kumar to All Participants:
+5. Send changes to the master branch of your remote repository:
+    git push origin master
+6. Connect to a remote repository
+    git remote add origin <server>
+7. Create a new branch and switch to it:
+    git merge <branchname>
+from Praveen Kumar to All Participants:
+www,github.com
+from Praveen Kumar to All Participants:
+Steps to Checkin the code
+-------------------------
+1. create a local repository
+    git init
+2. Tell Git who you are ?
+    git config --global user.name "Sam Smith"
+    git config --global user.email sam@example.com
+3. Add one or more files to staging (index):
+    git add <filename>
+    git add *
+4. Commit changes to head (but not yet to the remote repository):
+    git commit -m "Commit message"
+5. Send changes to the master branch of your remote repository:
+    git push origin master
+6. Connect to a remote repository
+    git remote add origin <server>
+7. Create a new branch and switch to it:
+    git merge <branchname>
